@@ -1,0 +1,33 @@
+.para{
+    background-color: darkcyan;
+    color: khaki;
+    font-size: 30px;
+    font-style: italic;
+    font-weight:bold;
+    font-variant: small-caps;
+    text-decoration: underline;
+    line-height:3cm;
+    text-indent: 80px;
+    word-spacing:3px;
+    cursor: ns-resize;
+    border: 5px solid grey;
+    outline: green solid 5px;
+    padding: 20px;
+    margin: 40px;
+}
+
+.inner{
+    color: lightsalmon;
+}
+
+.up{
+    color: lightpink;
+}
+
+ul{
+    list-style-type: circle;
+    list-style-position: outside;
+}
+*{
+    background-color: grey;
+}

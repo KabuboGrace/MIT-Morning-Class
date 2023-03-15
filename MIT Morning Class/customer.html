@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+  <link rel="stylesheet" href="Customer.css">
+
+  <script type="text/javascript">
+    function validate() {
+
+      var name = document.getElementById("nm");
+      var email = document.getElementById("em");
+      var investment = document.getElementById("Inv");
+      var datejoined = document.getElementById("dj");
+
+
+      if (name.value == "" || email.value == "" || investment.value == "" || datejoined.value == "") {
+        alert("Fill the blanks");
+        return false;
+      } else {
+        return true;
+      }
+    }
+
+  </script>
+
+
+</head>
+
+<body>
+
+<form onsubmit="return validate()" action="morning.html">
+<fieldset>
+  <legend>Customer</legend>
+
+  <label for="nm">Name*</label>
+  <input type="text" id="nm"> <br> <br>
+
+  <label for="em">Email*</label>
+  <input type="email" id="em"> <br> <br>
+
+  <label for="Inv">Investments</label>
+  <select name="" id="Inv">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+  </select> <br> <br>
+
+  <label for="dj">Date Joined*</label>
+  <input type="date" id="dj"> <br> <br>
+
+  Active
+  <input type="checkbox">
+  
+  Inactive
+  <input type="checkbox">
+  </fieldset>
+  <br>
+  <input type="submit" value="OK">
+</form>
+
+</body>
+</html>

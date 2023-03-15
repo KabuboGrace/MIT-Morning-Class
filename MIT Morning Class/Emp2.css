@@ -1,0 +1,28 @@
+th,td {
+    border-bottom: 2px solid cornflowerblue;
+}
+
+.Heading{
+    color: yellow;
+}
+
+th{
+    background-color: dodgerblue;
+    border-right: white;
+}
+table{
+    height: 300px;
+    width: 30%;
+}
+
+tr:nth-child(even){
+    background-color: #90c9dc;
+}
+
+tr:nth-child(odd){
+    background-color: #adc9da;
+}
+
+tr:hover{
+    background-color:steelblue;
+}

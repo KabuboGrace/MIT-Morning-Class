@@ -1,0 +1,26 @@
+ input[type=text],input[type=email],input[type=password],input[type=password],select{
+      display: inline-block;
+      border-radius: 2px;
+     width: 100%;
+     border:2px solid grey;
+     padding:20px;
+     box-sizing: border-box;
+     box-shadow: 3px 4px 2px 4px gray;
+ }
+
+ .myforms{
+     height: 700px;
+     background:plum;
+     padding:100px;
+     margin: 60px;
+ }
+
+ input[type=submit]{
+     width:100%;
+     height: 50px;
+     background-color:darkturquoise;
+ }
+
+ input[type=submit]:hover{
+     background-color: dimgrey;
+ }
